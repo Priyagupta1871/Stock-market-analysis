@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="market.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Stock Market Analysis</h1>
+    </header>
+    <main>
+
+    <section id="chart">
+        <div id="stockChart">
+            <canvas id="myChart"></canvas>
+            <div id="dateFilter">
+
+                <span class="filter" id="1mo">1Month</span>
+                <span class="filter" id="3mo">3Month</span>
+                <span class="filter" id="1y">1Year</span>
+                <span class="filter" id="5y">5Year</span>
+
+            </div>
+          </div>
+          </section>
+    <section id="list">
+        <div id="container"></div>
+    </section>
+    <section id="description">
+        <div id="container2"></div>
+        <br>
+        <div id="summary"></div>
+    </section>
+    </main>
+    <script type="module" src="market.js"></script>
+
+</body>
+</html>
